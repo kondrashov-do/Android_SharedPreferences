@@ -55,7 +55,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	    Editor ed = sPref.edit();
 	    ed.putString(SAVED_TEXT, etText.getText().toString());
 	    ed.commit();
-	    Toast.makeText(this, "Text saved", Toast.LENGTH_SHORT).show();
+	    Toast.makeText(this, "Text saved!!!", Toast.LENGTH_SHORT).show();
 	  }
 	  
 	  void loadText() {
